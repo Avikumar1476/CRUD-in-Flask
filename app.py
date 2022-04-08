@@ -13,7 +13,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
  
 db = SQLAlchemy(app)
  
- 
+
 #Creating model table for our CRUD database
 class Data(db.Model):
     id = db.Column(db.Integer, primary_key = True)
